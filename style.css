@@ -3,13 +3,14 @@
     box-shadow: none;
 }
 
-p, h1, h2, h3, h4, h5, h6, span, button{
+/* p, h1, h2, h3, h4, h5, h6, span, button{
     font-family: "Roboto", sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-weight:500 !important;
-}
+    font-family: "Roboto", sans-serif !important;
+} */
 /* The Modal (background) */
 .modal {
     position: fixed;
@@ -106,6 +107,8 @@ h1, h2, h3, h4, h5, h6{
 .modal-header > h2{
   font-size :16px;
   padding-top:10px;
+  font-weight:500 ;
+  font-family: "Roboto", sans-serif;
   text-align:center;
   margin:0;
 }
@@ -116,12 +119,15 @@ h1, h2, h3, h4, h5, h6{
 .title-trade > h1{
   font-size : 29px;
   font-weight: 900;
+  font-weight:500;
+  font-family: "Roboto", sans-serif;
   margin:0;
   text-align:center;
 }
 .title-trade > p{
   font-weight:500;
   line-height: 1.5 ;
+  font-family: "Roboto", sans-serif;
   text-align:justify;
 }
 .title-description{
@@ -140,9 +146,12 @@ h1, h2, h3, h4, h5, h6{
 }
 .container-img > p{
   margin:0;
+  font-family: "Roboto", sans-serif;
 }
 .how-it-works > h1{
   text-align:center;
+    font-weight:500 ;
+    font-family: "Roboto", sans-serif;
   font-size : 25px;
   font-weight: 700;
 }
@@ -195,6 +204,8 @@ h1, h2, h3, h4, h5, h6{
 }
 .steps-take-container > h3{
   font-weight: 900;
+  font-weight:500 ;
+  font-family: "Roboto", sans-serif;
   font-size:18px;
   margin:0;
 }
