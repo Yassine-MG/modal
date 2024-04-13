@@ -1,7 +1,106 @@
 *{
-    font-family: sans-serif;
+  
     box-shadow: none;
 }
+
+@font-face {
+  font-family: 'Fractul';
+  src: url('./Fonts/Fractul-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fractul';
+  src: url('./Fonts/Fractul-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fractul';
+  src: url('./Fonts/Fractul-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fractul';
+  src: url('./Fonts/Fractul-BoldItalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fractul';
+  src: url('./Fonts/Fractul-Black.otf') format('opentype');
+  font-weight: 900; /* Use a weight that represents 'Black' */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fractul';
+  src: url('./Fonts/Fractul-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fractul';
+  src: url('./Fonts/Fractul-ExtraBold.otf') format('opentype');
+  font-weight: 800; /* Use a weight that represents 'ExtraBold' */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fractul';
+  src: url('./Fonts/Fractul-ExtraBoldItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fractul';
+  src: url('./Fonts/Fractul-Light.otf') format('opentype');
+  font-weight: 300; /* Use a weight that represents 'Light' */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fractul';
+  src: url('./Fonts/Fractul-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fractul';
+  src: url('./Fonts/Fractul-Medium.otf') format('opentype');
+  font-weight: 500; /* Use a weight that represents 'Medium' */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fractul';
+  src: url('./Fonts/Fractul-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fractul';
+  src: url('./Fonts/Fractul-Thin.otf') format('opentype');
+  font-weight: 100; /* Use a weight that represents 'Thin' */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fractul';
+  src: url('./Fonts/Fractul-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
 
 /* p, h1, h2, h3, h4, h5, h6, span, button{
     font-family: "Roboto", sans-serif !important;
@@ -109,7 +208,8 @@ h1, h2, h3, h4, h5, h6{
   padding-top:10px;
   font-weight:500 ;
 /*   font-family: "Roboto", sans-serif; */
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Fractul-Black", sans-serif;
+    /* font-family: ; */
   text-align:center;
   margin:0;
 }
@@ -120,7 +220,8 @@ h1, h2, h3, h4, h5, h6{
 .title-trade > h1{
   font-size : 29px;
   font-weight:700;
-  font-family: "Nunito Sans", sans-serif;
+  /* font-family: "Nunito Sans", sans-serif; */
+  font-family: "Fractul-Black", sans-serif;
   margin:0;
   text-align:center;
 }
@@ -128,7 +229,7 @@ h1, h2, h3, h4, h5, h6{
   font-weight:500;
   line-height: 1.5 ;
 /*   font-family: "Roboto", sans-serif; */
-    font-family: "Nunito Sans", sans-serif;
+  font-family: "Fractul-Black", sans-serif;
   text-align:justify;
 }
 .title-description{
@@ -148,13 +249,13 @@ h1, h2, h3, h4, h5, h6{
 .container-img > p{
   margin:0;
 /*   font-family: "Roboto", sans-serif; */
-    font-family: "Nunito Sans", sans-serif;
+  font-family: "Fractul-Black", sans-serif;
 }
 .how-it-works > h1{
   text-align:center;
     font-weight:500 ;
 /*     font-family: "Roboto", sans-serif; */
-    font-family: "Nunito Sans", sans-serif;
+  font-family: "Fractul-Black", sans-serif;
   font-size : 25px;
   font-weight: 700;
 }
@@ -206,10 +307,9 @@ h1, h2, h3, h4, h5, h6{
   top:6px;
 }
 .steps-take-container > h3{
-  font-weight: 900;
   font-weight:500 ;
 /*   font-family: "Roboto", sans-serif; */
-    font-family: "Nunito Sans", sans-serif;
+  font-family: "Fractul-Black", sans-serif;
   font-size:18px;
   margin:0;
 }
@@ -226,7 +326,7 @@ h1, h2, h3, h4, h5, h6{
 .steps-take-container > p{
   margin: 0;
   line-height: 1.5 ;
-font-family: "Nunito Sans", sans-serif;
+  font-family: "Fractul-Black", sans-serif;
   font-size:12px;
   font-weight:700;
 }
